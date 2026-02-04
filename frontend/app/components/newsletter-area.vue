@@ -5,11 +5,7 @@
         <div class="col-12 col-lg-10">
           <div class="newsletter-content">
             <!-- Section Heading -->
-            <div class="section-heading white text-center">
-              <p>What we do</p>
-              <h2><span>Our Produce</span> Is Mainstay For Us</h2>
-              <img src="/core-img/decor2.png" alt="">
-            </div>
+            <section-title :orientation="'CENTER'" :color="'WHITE'"/>
             <p class="text-white mb-50 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at diam convallis ligula cursus bibendum sed at enim. Class aptent taciti sociosqu ad litora torquent conubia nostra, per inceptos
               himenaeos.</p>
           </div>

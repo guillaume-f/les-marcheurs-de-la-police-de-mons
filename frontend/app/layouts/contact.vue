@@ -1,5 +1,4 @@
 <template>
-
   <app-header />
   <slot />
   <newsletter-area />

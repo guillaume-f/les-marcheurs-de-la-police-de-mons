@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-12">
           <!-- Section Heading -->
-        <app-title />
+         <section-title :orientation="'CENTER'"></section-title>
         </div>
       </div>
 

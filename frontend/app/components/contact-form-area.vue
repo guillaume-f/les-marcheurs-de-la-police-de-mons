@@ -7,11 +7,7 @@
         <div class="col-12 col-md-6 mx-auto">
           <div class="contact-content mb-100">
             <!-- Section Heading -->
-            <div class="section-heading">
-              <p>Contactez nous !</p>
-              <h2><span>Contacter</span> le responsable du site</h2>
-              <img src="/core-img/decor.png" alt="">
-            </div>
+            <section-title :orientation="'LEFT'"></section-title>
             <!-- Contact Form Area -->
             <div class="contact-form-area">
               <contact-form />
