@@ -27,6 +27,7 @@
                 <ul>
                   <li class="active"><NuxtLink to="/">Accueil</NuxtLink></li>
                   <li><NuxtLink to="/about">A propos</NuxtLink></li>
+                  <li><NuxtLink to="/comite">Comité 2026</NuxtLink></li>
                   <li><a href="#">Marches</a>
                     <ul class="dropdown">
                       <li><a href="/">Modifications et annulations marches FFBMP</a></li>

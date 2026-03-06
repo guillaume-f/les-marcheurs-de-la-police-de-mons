@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_comite_membre_du_comite",
+  "info": {
+    "displayName": "Membre du comité",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Prenom": {
+      "type": "string",
+      "required": true
+    },
+    "Rue": {
+      "type": "string"
+    },
+    "Numero": {
+      "type": "string"
+    },
+    "Boite": {
+      "type": "string"
+    },
+    "Commune": {
+      "type": "string"
+    },
+    "Code_postal": {
+      "type": "string"
+    },
+    "Tel": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Fonction": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

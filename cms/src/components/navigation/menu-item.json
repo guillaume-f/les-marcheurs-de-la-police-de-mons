@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_navigation_menu_items",
+  "info": {
+    "displayName": "menuItem"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

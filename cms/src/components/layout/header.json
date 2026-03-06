@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "menu": {
+      "type": "component",
+      "component": "navigation.menu-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

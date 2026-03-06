@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "basepages",
+  "info": {
+    "singularName": "basepage",
+    "pluralName": "basepages",
+    "displayName": "Page de base"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "component": "layout.header",
+      "repeatable": false
+    },
+    "Footer": {
+      "type": "component",
+      "component": "layout.footer",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^25.3.5"
+  },
+  "dependencies": {
+    "@nuxtjs/strapi": "^2.1.1"
+  }
+}

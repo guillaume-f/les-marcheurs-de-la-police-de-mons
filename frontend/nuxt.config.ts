@@ -4,9 +4,8 @@ import 'dotenv/config';
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  ssr: true,
+  ssr: false,
   css: [
-    // './node_modules/bootstrap/dist/css/bootstrap.min.css',
       '~/assets/scss/style.scss'
     ],
   runtimeConfig: {
@@ -36,5 +35,10 @@ export default defineNuxtConfig({
     css: {
       devSourcemap: true
     }
-  }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
 })
